@@ -1,0 +1,38 @@
+
+h1{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+
+#menu{
+    list-style-type: none;
+    width: 400px;
+}
+
+#menu li{
+    background-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu li:nth-child(1){
+    background-color: orange;
+}
+
+#menu li:hover{
+    background-color: pink;
+
+}
+
